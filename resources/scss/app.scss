@@ -1,0 +1,166 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+html, body {
+    background-color: #102055;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.btn-dark-grey {
+    background-color: #424349;
+    border-radius: 4px;
+    color: #ffffff;
+    white-space: nowrap;
+
+    &:hover {
+        border: 1px solid #2f3034;
+    }
+}
+
+form {
+    .form-label {
+        margin-bottom: 0.2rem;
+        font-weight: 300;
+    }
+
+    .form-control, .form-select {
+        background-color: #fafafa;
+        border-radius: 0.275rem;
+        padding: .575rem .75rem;
+
+        &:focus {
+            box-shadow: none;
+        }
+    }
+
+    .btn {
+        border-radius: 0.275rem;
+        padding: .575rem .75rem;
+    }
+}
+
+.custom-border-bottom {
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #dddddd;
+
+    &.tick-border {
+        border-bottom: 2px solid #dddddd;
+    }
+}
+
+/**
+ * Main Wrapper
+ */
+.main-wrapper {
+
+    /**
+     * Box Wrapper
+     */
+    .box-wrapper {
+        background-color: #ffffff;
+        border-radius: 8px;
+        padding: 40px;
+
+        .title {
+            margin: 0;
+            padding: 0;
+            font-size: 1.25rem;
+            font-weight: 300;
+        }
+
+        /**
+         * Box Header
+         */
+        .box-header {
+            .alert-dismissible {
+                padding: 10px 14px;
+
+                .btn-close {
+                    padding: 0.9rem 1rem;
+
+                    &:focus {
+                        box-shadow: none;
+                    }
+                }
+            }
+        }
+
+        /**
+         * Todo Wrapper
+         */
+        .todo-wrapper {
+            .tab-list {
+                button {
+                    margin: 0;
+                    padding: 0;
+                    position: relative;
+                    text-decoration: none;
+                    font-weight: 500;
+                }
+
+                .active {
+                    color: #000000;
+                }
+            }
+
+            .todo-list {
+                padding: 0;
+                margin: 0;
+                list-style: none;
+
+                li {
+                    margin-bottom: 8px;
+                    font-size: 1.1rem;
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+
+                    a {
+                        i {
+                            -webkit-text-stroke-width: 1px;
+                        }
+                    }
+
+                    &.completed {
+                        label {
+                            text-decoration: line-through;
+                        }
+                    }
+                }
+            }
+        }
+
+        /**
+         * Category Wrapper
+         */
+        .category-wrapper {
+            .category-list {
+                padding: 0;
+                margin: 0;
+                list-style: none;
+
+                li {
+                    margin-bottom: 8px;
+                    font-size: 1.1rem;
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+
+                    a {
+                        margin-right: 10px;
+
+                        i {
+                            -webkit-text-stroke-width: 1.5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
