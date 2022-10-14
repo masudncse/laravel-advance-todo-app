@@ -4,4 +4,4 @@
 Todo application by using laravel framework and mysql database with another related technologies.
 
 ## Screenshot
-![1](https://github.com/masudncse/laravel-advance-todo-app/blob/master/screenshots/1.png)
+![1](https://github.com/masudncse/laravel-advance-todo-app/blob/main/screenshots/1.png)
