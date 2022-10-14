@@ -27,7 +27,7 @@ class TodoSeeder extends Seeder
                 'id' => 2,
                 'category_id' => 2,
                 'title' => 'Go for walk',
-                'status' => false,
+                'status' => true,
                 'created_at' => now(),
                 'updated_at' => now(),
             ]
